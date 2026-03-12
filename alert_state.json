@@ -7,5 +7,9 @@
   },
   "manual_reminder_regional_bank_provisions": {
     "last_date": "2026-03-12"
+  },
+  "cape_ratio": {
+    "last_alerted_status": "watch",
+    "last_alert_date": "2026-03-12"
   }
 }
