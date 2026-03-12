@@ -166,10 +166,10 @@
       "direction": "context"
     },
     "office_vacancy": {
-      "value": null,
-      "status": "unknown",
+      "value": 19.8,
+      "status": "watch",
       "manual": true,
-      "last_updated": null,
+      "last_updated": "2026-03-12T00:00:00+00:00",
       "unit": "%",
       "name": "Office Vacancy Rate (Major Markets)",
       "description": "% of commercial office space empty in major metros. Source: CBRE quarterly report.",
@@ -187,10 +187,10 @@
       "manual_source": "https://www.cbre.com/insights/figures/office-figures"
     },
     "cape_ratio": {
-      "value": null,
-      "status": "unknown",
+      "value": 37.0,
+      "status": "watch",
       "manual": true,
-      "last_updated": null,
+      "last_updated": "2026-03-12T00:00:00+00:00",
       "unit": "x",
       "name": "Shiller CAPE Ratio (S&P 500)",
       "description": "Cyclically-adjusted P/E. High = thin cushion before correction becomes catastrophic.",
