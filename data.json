@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T09:48:42.167877+00:00",
+  "last_updated": "2026-06-01T12:43:07.166440+00:00",
   "meta": {
     "total_indicators": 10,
     "auto_indicators": 7,
@@ -15,7 +15,7 @@
       "date": "2026-05-28",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-05-31T09:48:40.375266+00:00",
+      "last_updated": "2026-06-01T12:43:05.307233+00:00",
       "unit": "bps",
       "name": "High-Yield Bond Spread (OAS)",
       "description": "Spread between junk bonds and Treasuries. Rising = credit stress.",
@@ -37,7 +37,7 @@
       "date": "2026-05-28",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-05-31T09:48:40.661535+00:00",
+      "last_updated": "2026-06-01T12:43:05.544240+00:00",
       "unit": "bps",
       "name": "Investment Grade Corporate Spread (OAS)",
       "description": "Spread between IG corporate bonds and Treasuries. Spike = contagion leaving CRE.",
@@ -118,7 +118,8 @@
         "danger": -0.5,
         "critical": -1.0
       },
-      "direction": "lower_is_worse"
+      "direction": "lower_is_worse",
+      "fetch_error": "HTTP Error 429: Too Many Requests"
     },
     "m2_growth": {
       "value": 4.72,
@@ -127,7 +128,7 @@
       "date": "2026-04-01",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-05-31T09:48:41.733408+00:00",
+      "last_updated": "2026-06-01T12:43:06.432925+00:00",
       "unit": "%",
       "name": "US M2 Money Supply YoY Growth",
       "description": "Rate of change in broad money supply. Extremes in either direction are danger signals.",
@@ -152,7 +153,7 @@
       "date": "2026-04-01",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-05-30T09:23:42.559535+00:00",
+      "last_updated": "2026-06-01T12:43:06.646462+00:00",
       "unit": "%",
       "name": "Federal Funds Rate",
       "description": "Current Fed rate. High-for-longer = debt servicing costs balloon.",
@@ -165,8 +166,7 @@
         "danger": 5.0,
         "critical": 6.0
       },
-      "direction": "context",
-      "fetch_error": "HTTP Error 429: Too Many Requests"
+      "direction": "context"
     },
     "office_vacancy": {
       "value": 19.8,
