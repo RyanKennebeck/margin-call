@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01T12:43:07.166440+00:00",
+  "last_updated": "2026-06-02T11:22:52.900971+00:00",
   "meta": {
     "total_indicators": 10,
     "auto_indicators": 7,
@@ -9,13 +9,13 @@
   },
   "indicators": {
     "hy_spread": {
-      "value": 2.72,
-      "raw_value": 2.72,
-      "previous_value": 2.71,
-      "date": "2026-05-28",
+      "value": 2.74,
+      "raw_value": 2.74,
+      "previous_value": 2.72,
+      "date": "2026-05-31",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-06-01T12:43:05.307233+00:00",
+      "last_updated": "2026-06-02T11:22:51.859944+00:00",
       "unit": "bps",
       "name": "High-Yield Bond Spread (OAS)",
       "description": "Spread between junk bonds and Treasuries. Rising = credit stress.",
@@ -31,13 +31,13 @@
       "direction": "higher_is_worse"
     },
     "ig_spread": {
-      "value": 0.73,
-      "raw_value": 0.73,
-      "previous_value": 0.74,
-      "date": "2026-05-28",
+      "value": 0.74,
+      "raw_value": 0.74,
+      "previous_value": 0.73,
+      "date": "2026-05-31",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-06-01T12:43:05.544240+00:00",
+      "last_updated": "2026-06-02T11:22:52.040351+00:00",
       "unit": "bps",
       "name": "Investment Grade Corporate Spread (OAS)",
       "description": "Spread between IG corporate bonds and Treasuries. Spike = contagion leaving CRE.",
@@ -144,16 +144,17 @@
         "watch_low": 0.0,
         "danger_low": -2.0
       },
-      "direction": "both_extremes_worse"
+      "direction": "both_extremes_worse",
+      "fetch_error": "HTTP Error 429: Too Many Requests"
     },
     "fed_funds_rate": {
-      "value": 3.64,
-      "raw_value": 3.64,
+      "value": 3.63,
+      "raw_value": 3.63,
       "previous_value": 3.64,
-      "date": "2026-04-01",
+      "date": "2026-05-01",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-06-01T12:43:06.646462+00:00",
+      "last_updated": "2026-06-02T11:22:52.886190+00:00",
       "unit": "%",
       "name": "Federal Funds Rate",
       "description": "Current Fed rate. High-for-longer = debt servicing costs balloon.",
