@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T12:03:19.716362+00:00",
+  "last_updated": "2026-09-03T12:02:55.667722+00:00",
   "meta": {
     "total_indicators": 10,
     "auto_indicators": 7,
@@ -9,13 +9,13 @@
   },
   "indicators": {
     "hy_spread": {
-      "value": 2.63,
-      "raw_value": 2.63,
-      "previous_value": 2.6,
-      "date": "2026-08-31",
+      "value": 2.65,
+      "raw_value": 2.65,
+      "previous_value": 2.63,
+      "date": "2026-09-01",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-09-02T12:02:53.556370+00:00",
+      "last_updated": "2026-09-03T12:02:07.989789+00:00",
       "unit": "bps",
       "name": "High-Yield Bond Spread (OAS)",
       "description": "Spread between junk bonds and Treasuries. Rising = credit stress.",
@@ -50,7 +50,8 @@
         "danger": 350,
         "critical": 500
       },
-      "direction": "higher_is_worse"
+      "direction": "higher_is_worse",
+      "fetch_error": "The read operation timed out"
     },
     "cre_delinquency": {
       "value": 1.53,
@@ -59,7 +60,7 @@
       "date": "2026-04-01",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-09-02T12:03:08.516645+00:00",
+      "last_updated": "2026-09-03T12:02:35.923041+00:00",
       "unit": "%",
       "name": "CRE Loan Delinquency Rate",
       "description": "% of commercial real estate loans 30+ days past due at banks.",
@@ -94,16 +95,17 @@
         "danger": 5.0,
         "critical": 7.0
       },
-      "direction": "higher_is_worse"
+      "direction": "higher_is_worse",
+      "fetch_error": "The read operation timed out"
     },
     "yield_curve": {
       "value": 0.4,
       "raw_value": 0.4,
-      "previous_value": 0.41,
-      "date": "2026-09-01",
+      "previous_value": 0.4,
+      "date": "2026-09-02",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-09-02T12:03:17.037838+00:00",
+      "last_updated": "2026-09-03T12:02:52.335679+00:00",
       "unit": "%",
       "name": "Yield Curve (10yr minus 2yr Treasury)",
       "description": "Negative = inverted = recession signal. Re-inversion after Fed cuts = market rejects rescue.",
@@ -125,7 +127,7 @@
       "date": "2026-07-01",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-09-02T12:03:18.289437+00:00",
+      "last_updated": "2026-09-03T12:02:53.660149+00:00",
       "unit": "%",
       "name": "US M2 Money Supply YoY Growth",
       "description": "Rate of change in broad money supply. Extremes in either direction are danger signals.",
@@ -150,7 +152,7 @@
       "date": "2026-08-01",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-09-02T12:03:19.695233+00:00",
+      "last_updated": "2026-09-03T12:02:55.648303+00:00",
       "unit": "%",
       "name": "Federal Funds Rate",
       "description": "Current Fed rate. High-for-longer = debt servicing costs balloon.",
