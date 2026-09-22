@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T13:51:15.021545+00:00",
+  "last_updated": "2026-09-22T12:31:15.506558+00:00",
   "meta": {
     "total_indicators": 10,
     "auto_indicators": 7,
@@ -9,13 +9,13 @@
   },
   "indicators": {
     "hy_spread": {
-      "value": 2.7,
-      "raw_value": 2.7,
+      "value": 2.68,
+      "raw_value": 2.68,
       "previous_value": 2.7,
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-09-21T13:51:13.261516+00:00",
+      "last_updated": "2026-09-22T12:30:46.616748+00:00",
       "unit": "bps",
       "name": "High-Yield Bond Spread (OAS)",
       "description": "Spread between junk bonds and Treasuries. Rising = credit stress.",
@@ -31,13 +31,13 @@
       "direction": "higher_is_worse"
     },
     "ig_spread": {
-      "value": 0.78,
-      "raw_value": 0.78,
+      "value": 0.77,
+      "raw_value": 0.77,
       "previous_value": 0.78,
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-09-21T13:51:13.565548+00:00",
+      "last_updated": "2026-09-22T12:30:52.148593+00:00",
       "unit": "bps",
       "name": "Investment Grade Corporate Spread (OAS)",
       "description": "Spread between IG corporate bonds and Treasuries. Spike = contagion leaving CRE.",
@@ -59,7 +59,7 @@
       "date": "2026-04-01",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-09-21T13:51:13.814642+00:00",
+      "last_updated": "2026-09-22T12:30:54.469509+00:00",
       "unit": "%",
       "name": "CRE Loan Delinquency Rate",
       "description": "% of commercial real estate loans 30+ days past due at banks.",
@@ -81,7 +81,7 @@
       "date": "2026-04-01",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-09-21T13:51:14.170070+00:00",
+      "last_updated": "2026-09-22T12:31:02.421645+00:00",
       "unit": "%",
       "name": "Consumer Loan Delinquency Rate",
       "description": "% of consumer loans past due at commercial banks. Broad consumer stress indicator.",
@@ -116,7 +116,8 @@
         "danger": -0.5,
         "critical": -1.0
       },
-      "direction": "lower_is_worse"
+      "direction": "lower_is_worse",
+      "fetch_error": "HTTP Error 502: Bad Gateway"
     },
     "m2_growth": {
       "value": 5.41,
@@ -125,7 +126,7 @@
       "date": "2026-07-01",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-09-21T13:51:14.656927+00:00",
+      "last_updated": "2026-09-22T12:31:10.474103+00:00",
       "unit": "%",
       "name": "US M2 Money Supply YoY Growth",
       "description": "Rate of change in broad money supply. Extremes in either direction are danger signals.",
@@ -150,7 +151,7 @@
       "date": "2026-08-01",
       "status": "safe",
       "manual": false,
-      "last_updated": "2026-09-21T13:51:15.013859+00:00",
+      "last_updated": "2026-09-22T12:31:15.500808+00:00",
       "unit": "%",
       "name": "Federal Funds Rate",
       "description": "Current Fed rate. High-for-longer = debt servicing costs balloon.",
